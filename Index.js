@@ -1,4 +1,9 @@
-const inquirer = require('inquirer');
-const startApp = require('./lib/Employee');
+// Global Requirements
+const Inquirer = require("inquirer");
+const fs = require('fs');
 
-new startApp().initializeApp();
+// Required Constructors
+const Employee = require('./lib/employee');
+const Manager = require('./lib/manager');
+const Engineer = require('./lib/engineer');
+const Intern = require('./lib/intern');

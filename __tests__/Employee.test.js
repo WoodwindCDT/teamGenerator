@@ -22,7 +22,7 @@ test('Can get email via getEmail()', () => {
 });
 
 // To test for selected role from user selection
-test('Can get selected role from getRole()', () => {
+test('getRole() should return standard Employee', () => {
     const testValue = "Engineer";
     expect(testValue).toBe('Engineer');
 });

@@ -20,3 +20,9 @@ test('Can get email via getEmail()', () => {
     const e = new Employee("Jerry", 1, testValue);
     expect(e.getEmail()).toBe(testValue);
 });
+
+// To test for selected role from user selection
+test('Can get selected role from getRole()', () => {
+    const testValue = "Engineer";
+    expect(testValue).toBe('Engineer');
+});

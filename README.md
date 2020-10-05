@@ -18,7 +18,8 @@
   
   ## Installation
   
-  > 
+  Click here for an Instructional Video!
+  > https://www.youtube.com/watch?v=qIvmPiMsiRg
   
   ## Usage
   
@@ -32,7 +33,7 @@ Example:
   
 ## Test
   
-  > All testing is complete and saved within folder __tests__
+  > All testing was done using [**jest**](https://jestjs.io/) and is saved within folder __tests__
 
   ## Questions?
 

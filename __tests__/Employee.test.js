@@ -23,6 +23,6 @@ test('Can get email via getEmail()', () => {
 
 // To test for selected role from user selection
 test('getRole() should return standard Employee', () => {
-    const testValue = "Engineer";
-    expect(testValue).toBe('Engineer');
+    const testValue = "Employee";
+    expect(testValue).toBe('Employee');
 });

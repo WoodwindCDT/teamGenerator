@@ -76,11 +76,9 @@ function promptForEmployee() {
  =====================
  Building HTML Page...
  =====================
- `
-            )
-            let Template = generatePage(teamMembers);
-            console.log(teamMembers);
-            writeFile(Template)
+ `)
+    let Template = generatePage(teamMembers);
+        writeFile(Template)
             .then((writeFileResponse) => {
                 console.log(writeFileResponse);
                 return copyFile();
@@ -122,7 +120,7 @@ function buildIntern() {
         },
     ]).then((answers) => {
         teamMembers.push(
-            new Intern(answers.name, answers.id, answers.email, answers.gitHub, answers.role)
+            new Intern(answers.name, answers.id, answers.email, answers.school, answers.role)
         );
         promptForEmployee();
     });

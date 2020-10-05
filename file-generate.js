@@ -11,14 +11,7 @@ const writeFile = (Template) => {
       // To resolve if everything went well!
       resolve({
         ok: true,
-        message: `
- =================
- HTML Page Created
- =================
- ==============
- Generating CSS
- ==============
-        `,
+        message: 'HTML Page Created!',
       });
     });
   });
@@ -33,11 +26,7 @@ const copyFile = () => {
       }
       resolve({
         ok: true,
-        message: `
- ====================
- CSS Generated! Enjoy
- ====================
-        `,
+        message: 'CSS Generating!',
       });
     });
   });
